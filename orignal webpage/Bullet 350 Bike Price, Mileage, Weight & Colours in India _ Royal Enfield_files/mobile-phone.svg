@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.461" height="108.407" viewBox="0 0 62.461 108.407">
+  <g id="mobile-phone" transform="translate(-108.5)">
+    <g id="Group_2061" data-name="Group 2061" transform="translate(108.5)">
+      <g id="Group_2060" data-name="Group 2060">
+        <path id="Path_1533" data-name="Path 1533" d="M163.021,0H116.44a7.949,7.949,0,0,0-7.94,7.94v92.527a7.949,7.949,0,0,0,7.94,7.94h46.581a7.949,7.949,0,0,0,7.94-7.94V7.94A7.949,7.949,0,0,0,163.021,0Zm4.764,86.175H122.792a1.588,1.588,0,0,0,0,3.176h44.993v11.116a4.769,4.769,0,0,1-4.764,4.764H116.44a4.769,4.769,0,0,1-4.764-4.764V89.351h4.764a1.588,1.588,0,1,0,0-3.176h-4.764V15.88h56.109Zm0-73.471H111.676V7.94a4.769,4.769,0,0,1,4.764-4.764h46.581a4.769,4.769,0,0,1,4.764,4.764Z" transform="translate(-108.5 0)" fill="#7c7c7c"/>
+      </g>
+    </g>
+    <g id="Group_2063" data-name="Group 2063" transform="translate(138.143 6.352)">
+      <g id="Group_2062" data-name="Group 2062">
+        <path id="Path_1534" data-name="Path 1534" d="M256.44,30h-6.352a1.588,1.588,0,0,0,0,3.176h6.352a1.588,1.588,0,1,0,0-3.176Z" transform="translate(-248.5 -30)" fill="#7c7c7c"/>
+      </g>
+    </g>
+    <g id="Group_2065" data-name="Group 2065" transform="translate(134.967 92.527)">
+      <g id="Group_2064" data-name="Group 2064">
+        <path id="Path_1535" data-name="Path 1535" d="M238.264,437a4.764,4.764,0,1,0,4.764,4.764A4.769,4.769,0,0,0,238.264,437Zm0,6.352a1.588,1.588,0,1,1,1.588-1.588A1.59,1.59,0,0,1,238.264,443.352Z" transform="translate(-233.5 -437)" fill="#7c7c7c"/>
+      </g>
+    </g>
+    <g id="Group_2067" data-name="Group 2067" transform="translate(131.997 6.397)">
+      <g id="Group_2066" data-name="Group 2066" transform="translate(0 0)">
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.5" cy="1.5" r="1.5" transform="translate(-0.094 -0.397)" fill="#7c7c7c"/>
+      </g>
+    </g>
+  </g>
+</svg>

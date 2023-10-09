@@ -1,0 +1,82 @@
+.social-sticky-links-box{position:relative;width:100%;transition:all .6s ease;-webkit-transition:all .6s ease;-moz-transition:all .6s ease;-ms-transition:all .6s ease;-o-transition:all .6s ease;z-index:10}
+.icon-share img{width:14px;height:15px;margin:0 auto;transform:rotate(90deg)}
+.share-for-mobile{display:none}
+.re-master .social-sticky-links-box{position:fixed;top:50%;right:-140px;width:140px}
+.re-master .social-sticky-links-box.social-open{right:0}
+.social-sticky-links-box .social-sticky-links ul{margin:0;list-style-type:none;display:flex;align-items:center}
+.social-sticky-links-box .social-sticky-links ul li{width:100%}
+.social-sticky-links-box .social-sticky-links ul li a{border-top:1px solid lightgrey;border-bottom:1px solid lightgrey;display:inline-block;padding:15px 15px 11px 15px;font-family:"guardiansans-medium";font-size:16px;text-transform:none;color:#000;border-right:1px solid lightgrey;background:#fff;transition:ease all .5s;-webkit-transition:ease all .5s;-moz-transition:ease all .5s;-ms-transition:ease all .5s;-o-transition:ease all .5s;text-align:center}
+.social-sticky-links-box .social-sticky-links ul li a i{color:#fff;font-style:normal}
+.social-sticky-links-box .btn-custom{width:100%}
+.social-sticky-links-btn{cursor:pointer;position:relative;top:0;width:100%;height:100%;left:0;padding:22px 14px 22px 13px;background:#000;text-transform:none}
+.re-master .social-sticky-links-btn{position:absolute;width:50px;left:-50px}
+.social-sticky-links-btn .custom-btn{position:relative;transform:inherit;-webkit-transform:inherit;-moz-transform:inherit;-ms-transform:inherit;-o-transform:inherit;left:0;top:50%;border:0;padding:0;width:inherit;color:#fff !important;font-family:"guardiansans-semibold";font-size:16px;letter-spacing:1px}
+.re-master .social-sticky-links-btn .custom-btn{position:absolute;transform:translateX(-50%) translateY(-50%) rotate(-90deg);left:50%}
+.social-sticky-links-btn .custom-btn:hover{background:0}
+.social-sticky-links-btn .custom-btn:before{right:3px;transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);background:0;color:#fff !important;animation:initial !important}
+.social-sticky-links-mobi{display:none}
+@media screen and (max-width:1400px){.re-master .social-sticky-links-btn{width:35px;left:-35px}
+.re-master .social-sticky-links-box{width:137px;right:-137px;top:50%}
+.re-master .social-sticky-links-box.social-open{right:0}
+.social-sticky-links-box .social-sticky-links ul li a{padding:15px 15px 11px 15px;font-size:16px}
+}
+@media screen and (max-width:900px){.social-sticky-links-btn{cursor:pointer;position:absolute;top:0;width:40px;height:100%;left:-40px}
+.social-sticky-links-btn .custom-btn{letter-spacing:1.5px;font-size:12px}
+.social-sticky-links-btn .custom-btn:before,.social-sticky-links-btn .custom-btn:hover:before{right:15px;font-size:10px}
+}
+@media screen and (max-width:767px){.twitter-wrapper{padding:14px 25px 10px !important}
+a.share-section{color:#fff !important}
+.normal-state{display:none}
+.hover-state{display:block}
+.social-sticky-links-mobi{display:inline-block !important;padding:15px 50px 40px}
+.social-sticky-links-mobi ul{display:flex;border:1px solid #fff;align-items:center}
+.social-sticky-links-mobi ul li{padding:12px 25px}
+.social-sticky-links-mobi ul .share-for-mobile{padding:12px !important}
+.social-sticky-links-mobi ul li a{color:#fff}
+.share-for-mobile{display:inline-block !important;border-right:1px solid #fff}
+.re-master .social-sticky-links-btn{position:relative;width:100%;height:auto;top:0;left:0;padding:0}
+.re-master .social-sticky-links-btn .custom-btn{width:100%;font-size:18px;padding:20px 50px;position:relative;color:#fff !important;border:0;text-align:left;background:#212121;transform:inherit;top:0;left:0;font-family:"guardiansans-regular"}
+.social-sticky-links-btn .custom-btn:hover,.social-sticky-links-btn .custom-btn:focus{color:#da291c}
+.social-sticky-links-btn .custom-btn:before,.social-sticky-links-btn .custom-btn:hover:before{color:#bbbdbf !important;left:15px;right:auto;display:none}
+.re-master .social-sticky-links-box{position:fixed;top:50px;left:0;right:0;width:100%;background:#212121;height:125px;z-index:9999;transition:inherit;-webkit-transition:inherit;-moz-transition:inherit;-ms-transition:inherit;-o-transition:inherit;visibility:hidden;opacity:0;display:none}
+.social-sticky-links-mobi{display:block}
+.re-master .header .social-sticky-links-box{width:100%;display:block;position:relative;top:0}
+.social-sticky-links-box .social-sticky-links{display:none}
+.social-sticky-links-box .social-sticky-links ul{padding:5px 0;list-style-type:none;white-space:nowrap;overflow-x:auto}
+.social-sticky-links-box .social-sticky-links ul li{width:auto;display:inline-block;vertical-align:middle;margin-right:10px}
+.social-sticky-links-box .social-sticky-links ul li a i{color:#fff}
+.social-sticky-links-box .social-sticky-links ul li:first-child{margin-left:50px}
+.social-sticky-links-box .social-sticky-links ul li a{width:100%;font-size:14px;padding:10px 15px;position:relative;color:#fff;display:inline-block;letter-spacing:1px;border:solid thin #fff;background:#212121}
+.social-sticky-links-box .social-sticky-links ul li a:hover{background:#212121}
+.social-sticky-links-box .social-sticky-links ul li:last-child{margin-right:25px}
+.social-sticky-links-box .social-sticky-links ul li:last-child a{border:solid thin #fff;font-size:14px}
+.social-sticky-links-box.sl-head-show{visibility:visible;opacity:1}
+.social-sticky-links-box.sl-open{height:130px}
+.social-social-sticky-links-box.sl-open .social-sticky-links{display:block}
+.social-sticky-links-box.sl-open .social-sticky-links-btn .custom-btn:before{transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg)}
+.social-sticky-links-box .social-sticky-links,.social-sticky-links-box.sl-open .social-sticky-links{display:block}
+}
+@media screen and (min-width:768px){.social-sticky-links-box .social-sticky-links ul li{height:48.8px}
+.social-sticky-links-box .social-sticky-links ul li a{height:48.8px}
+.whatsapp-wrapper{width:47px !important;height:48.8px}
+.whatsapp-wrapper a{width:inherit;height:inherit}
+.fb-section span{height:16px;display:inline-block;width:16px}
+.social-sticky-links-box .social-sticky-links ul li .tw-section:hover{background:#22cbff;color:#fff}
+.social-sticky-links-box .social-sticky-links ul li .tw-section:has(img):hover{background:#000}
+.social-sticky-links-box .social-sticky-links ul li .gplus-section:hover{background:#25d366;color:#fff;width:47px;height:48.8px;transition:.3s}
+.social-sticky-links-box .social-sticky-links ul li .fb-section:hover{background:#385699;color:#fff;width:47px;height:48.8px;transition:.3s}
+.social-sticky-links-box .social-sticky-links ul li .fb-section:hover span .hover-state{vertical-align:top}
+.social-sticky-links-box .social-sticky-links ul li .gplus-section:hover span .hover-state{vertical-align:top}
+.fb-section span img{width:6px;height:11px;margin:3px auto 0}
+.gplus-section span img{width:13px;height:13px;margin:1px auto 0}
+.hover-state{display:none}
+.social-sticky-links-box .social-sticky-links ul li .fb-section:hover span .hover-state{display:inline-block}
+.social-sticky-links-box .social-sticky-links ul li .gplus-section:hover span .hover-state{display:inline-block}
+.social-sticky-links-box .social-sticky-links ul li .fb-section:hover span .normal-state{display:none}
+.social-sticky-links-box .social-sticky-links ul li .gplus-section:hover span .normal-state{display:none}
+.social-sticky-links-box .social-sticky-links ul li a:hover{border-top:1px solid transparent;border-bottom:1px solid transparent}
+.social-sticky-links-box .social-sticky-links ul li .tw-section:hover .normal-state{display:none}
+.social-sticky-links-box .social-sticky-links ul li .tw-section:hover .hover-state{display:inline-block}
+.social-sticky-links .tw-new-logo{width:16.5px;margin-top:0}
+}
+.arial-ft .social-sticky-links-box .social-sticky-links ul li a,.arial-ft .social-sticky-links-btn .custom-btn,.arial-ft.re-master .social-sticky-links-btn .custom-btn{font-family:"Arial-bold"}

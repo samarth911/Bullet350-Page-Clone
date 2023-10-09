@@ -1,0 +1,174 @@
+.section-btr{padding:60px 70px;background:#f6f6f6}
+.btr-heading{font-family:'Roboto-Black';margin-bottom:12px}
+.btr-row .custom-btn{font-family:'Roboto-Medium'}
+.btr-row p,.btr-row span{font-family:'Roboto-Regular' !important;line-height:22px}
+.btr-row{margin:0;box-shadow:0 0 15px rgb(0 0 0 / 10%)}
+.btr-row>*{padding:0}
+.miy-content-main{display:flex;flex-direction:column;height:100%;color:#fff;padding:60px 60px 60px;position:absolute;top:0;left:0}
+.btr-row .btr-form-rh{background:#fff;color:#000;padding:60px 60px 60px}
+.miy-logo{max-width:130px}
+.miy-rh{position:relative}
+.miy-bg,.miy-bg img,.miy-bg video{height:100%;width:100%}
+.miy-bg img,.miy-bg video{object-fit:cover}
+.miy-content-bt{margin-top:auto}
+.miy-content-bt p{line-height:24px;font-size:16px}
+.miy-text{margin-bottom:35px}
+.custom-btn.clr-w.round-btn{padding:13px 20px;border:1px solid #fff;border-radius:20px;font-family:'Roboto-Medium'}
+.custom-btn.clr-w.round-btn:hover{background:#fff;color:#000}
+.form-main{margin-top:24px}
+.form-fields{margin:0 -10px}
+.input-box{position:relative;margin:10px 10px;width:calc(50% - 22px);display:inline-block;vertical-align:top}
+.select-box{position:relative}
+.select-box.cc-box{width:80px;margin-right:5px;display:inline-block;vertical-align:middle}
+.input-field,.select-field{width:100%;padding:10px 0;border:0;border-radius:0;border-bottom:1px solid #000;font-size:14px;line-height:18px;-webkit-appearance:none;font-family:'Roboto-Regular';background:transparent;color:#000}
+.select-field{cursor:pointer;padding-right:30px}
+.select-box:after{content:'\0043';position:absolute;top:12px;right:15px;margin:auto;font-family:'reicons';font-size:12px;height:0;line-height:normal}
+.input-field::placeholder{color:#000}
+.input-field:focus,.select-field:focus{outline:0}
+.mobile-field .input-field{width:calc(100% - 89px);display:inline-block;vertical-align:middle;padding-right:43px}
+.section-btr div.error{color:#da291c;font-size:12px;margin-top:4px;font-family:'Roboto-Regular';display:none;padding-top:0;padding-bottom:0}
+.disclaimer{color:#666;margin-top:20px}
+.disclaimer a{color:#da291c}
+.custom-checkbox{width:auto;display:block;vertical-align:middle;margin-right:25px;margin-top:20px}
+.custom-checkbox input[type=checkbox].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.form-conditions{width:18px;height:18px;display:block;float:left;position:relative;border:solid thin #656565;vertical-align:middle;cursor:pointer}
+.custom-checkbox label{font-weight:normal;margin-bottom:0;position:relative;color:#555;font-size:14px;cursor:pointer}
+.custom-checkbox .terms{display:inline-flex}
+.terms-message{float:left;display:block;width:calc(100% - 20px);width:-moz-calc(100% - 20px);width:-webkit-calc(100% - 20px);padding-left:10px;font-size:12px;margin-top:-1px}
+.terms-message a{font-weight:bold}
+.terms-message p{line-height:20px}
+.custom-checkbox input[type=checkbox].with-font~label:after{content:"";width:8px;height:8px;background:rgba(218,41,28,0);display:inline-block;position:absolute;left:4px;top:50%;transform:translateY(-50%)}
+.custom-checkbox input[type=checkbox].with-font:checked~label:after{background:#da291c}
+.custom-btn.clr-w.round-btn.btn-bg-red{border:1px solid #da291c;background:#da291c;margin-top:25px}
+.custom-btn.clr-w.round-btn.btn-bg-red.submit-btn{margin-top:35px;padding:13px 40px}
+.custom-btn.clr-w.round-btn.btn-bg-red:hover{background:#da291c;color:#fff}
+.dealers-list-main{padding:0}
+h3.dealer-heading{padding:15px 0 0}
+.dealer-dropdown{width:100%;overflow-x:hidden;text-align:left;margin:0 auto;display:block;max-height:420px;margin-bottom:16px}
+.dealer-dropdown label{width:calc(100% - 4px);width:-webkit-calc(100% - 4px);width:-moz-calc(100% - 4px);display:inline-block;padding-left:14px;box-sizing:border-box;cursor:pointer;margin-top:20px;position:relative;margin-left:0;vertical-align:top;padding-right:10px}
+.dealer-dropdown label:after{width:16px;height:16px;border-radius:50%;position:absolute;left:0;top:0;border:1px solid #000;content:''}
+.dealer-dropdown label:before{width:8px;height:8px;position:absolute;left:4px;top:4px;content:'';background:#da291c;transform:scale(0);border-radius:50%}
+.dealer-dropdown label.active:before{transform:scale(1)}
+.dealer-dropdown label h3{font-size:16px;color:#000;line-height:16px;margin:0 10px}
+.dealer-dropdown label p{font-size:12px;line-height:20px;margin:10px 10px 0;text-transform:none}
+.dealer-dropdown label input[type="radio"]{position:absolute;left:0;top:0;opacity:0;visibility:hidden}
+.gdpr-j1c .consents{padding:5px 0 10px}
+.gdpr-j1c .consents h2{padding-bottom:10px}
+@media screen and (max-width:1200px){.form-fields{margin:0}
+.input-box{margin:14px 0;width:calc(100% - 0px)}
+.input-field,.select-field{padding:6px 0}
+.select-box:after{top:8px;font-size:11px}
+}
+@media screen and (max-width:992px){.section-btr{padding:50px 20px}
+.miy-content-main{padding:40px 20px 60px}
+.btr-row .btr-form-rh{padding:60px 20px 60px}
+}
+@media screen and (max-width:767px){.btr-row{box-shadow:0 0 10px rgb(0 0 0 / 7%)}
+.miy-content-main{padding:30px 20px 35px}
+.miy-text{margin-bottom:25px}
+.miy-logo{max-width:70px}
+.btr-heading{margin-bottom:5px}
+.form-main{margin-top:15px}
+.btr-row .btr-form-rh{padding:50px 20px 50px}
+.custom-btn.clr-w.round-btn.btn-bg-red.submit-btn{margin-top:25px}
+.custom-checkbox{margin-top:35px}
+}
+@media screen and (min-width:1650px){.section-btr{padding:80px 6%}
+}
+@media screen and (min-width:1800px){.disclaimer{margin-top:40px}
+.custom-checkbox{margin-top:40px}
+.section-btr{padding:100px 120px}
+.btr-heading{font-size:calc(24px + 0.5vw);line-height:1}
+.btr-row p,.miy-content-bt p{line-height:1.4;font-size:calc(10px + 0.5vw)}
+.input-field,.select-field{font-size:calc(8px + 0.5vw)}
+.custom-btn.clr-w.round-btn{padding:16px 28px;border-radius:30px;font-size:calc(8px + 0.5vw);line-height:1}
+.custom-btn.clr-w.round-btn.btn-bg-red.submit-btn{padding:16px 55px}
+.miy-content-main,.btr-row .btr-form-rh{padding:80px}
+.miy-content-main{padding-top:65px}
+.miy-logo{max-width:150px}
+.error{font-size:16px}
+}
+.verify-otp{color:#da291c !important;right:10px;position:absolute;top:7px;cursor:pointer;z-index:2;font-size:12px;font-weight:bold}
+.otp-modal .modal-header{border-bottom:0;justify-content:flex-end}
+span.cross-modal.icon-plus{width:30px;height:30px;background:transparent;border-radius:50%;position:relative;cursor:pointer;color:#000}
+.cross-modal:before{position:absolute;top:8px;left:9px;transform:rotate(45deg);font-weight:bold}
+.f-16{font-size:16px;color:#000}
+.resend-options{font-size:12px;margin-top:20px;cursor:pointer}
+button#numberOtpVerify{background:#000;color:#fff;border:0;padding:20px 50px;margin-top:15px}
+.otp-digits{margin:30px 0}
+.otp-section h3{font-size:19px;padding:0 0 14px;color:#000}
+.modal-body.otp-section{text-align:center;margin:0 0 50px}
+.otp-digits .input-box{width:7%;text-align:center;margin:10px 5px}
+.otp-digits .input-box .input-field{padding:5px 5px 2px;border:0;border-radius:0;border-bottom:2px solid #d5d5d5;text-align:center;margin:0;width:100%;appearance:none;-webkit-appearance:none}
+.otp-digits .input-box .input-field:focus{outline:0}
+.otp-modal .modal-content{border:0;border-radius:0}
+.country-code{position:absolute;left:17px;top:24px;z-index:2}
+.otp-only .input-field{padding:15px 60px 15px 20px}
+#meteorV2OtpVerify .custom-btn.bor.clr-b{border-color:#000;background:#000;color:#fff;border:0;padding:20px 50px}
+p.btrtimerCountDown{margin-top:15px}
+@media screen and (max-width:1200px){.verify-otp{top:5px}
+}
+@media screen and (max-width:767px){.verify-otp{top:3px}
+.otp-digits .input-box{width:10%}
+#meteorV2OtpVerify .modal-dialog.modal-dialog-centered.modal-md{width:90%;margin:0 auto}
+}
+@media screen and (min-width:1800px){.verify-otp{font-size:16px}
+}
+.otp-digits .input-box{display:inline-block;position:relative}
+.awesomplete>ul{max-height:160px;overflow-y:scroll;border-radius:0;margin:0;z-index:22;background:#fff;border:1px solid rgba(0,0,0,.3);box-shadow:.05em .2em .6em rgb(0 0 0 / 20%);text-shadow:none;position:absolute;width:-webkit-fill-available}
+.awesomplete>ul>li{position:relative;padding:.2em .5em;cursor:pointer}
+ul li mark{padding:0 !important;background-color:transparent !important}
+input[type=number],.otp-digits .input-box input[type=number].input-field{-moz-appearance:textfield}
+.section-btr.section-p4d-custom{background:#fff}
+.section-p4d-custom .btr-row p,.section-p4d-custom .btr-row span{font-family:"montserrat-regular" !important;color:#666}
+.section-p4d-custom .miy-content-bt p{font-size:14px;color:#000}
+.section-p4d-custom .custom-btn.clr-w.round-btn{border-radius:0;font-family:'montserrat-regular';border:1.5px solid #000;padding:15px 25px;font-weight:bold;color:#000}
+.section-p4d-custom .custom-btn.clr-w.round-btn:hover{color:#fff;background:#000;border-color:#0000}
+.section-p4d-custom .btr-row .btr-form-rh{background:#f1f1f1;color:#373737}
+.section-p4d-custom .btr-row{box-shadow:0 0 30px 2px rgb(0 0 0 / 15%)}
+.section-p4d-custom .miy-rh{box-shadow:0 0 30px 2px rgb(0 0 0 / 15%)}
+.section-p4d-custom .btr-heading{font-family:'guardiansans-semibold';font-size:36px;line-height:40px;margin-bottom:6px;-webkit-text-stroke:.8px}
+.section-p4d-custom .input-box{width:100%}
+.section-p4d-custom .input-field,.section-p4d-custom .select-field{border-color:#cecece;color:#666;font-family:'montserrat-regular'}
+.section-p4d-custom .select-field option{color:#000}
+.section-btr.section-p4d-custom div.error{font-family:'montserrat-regular'}
+.section-p4d-custom .disclaimer p{font-size:12px;line-height:18px}
+.section-p4d-custom .input-field::placeholder{color:#666}
+.section-p4d-custom .terms-message a{color:#666}
+.section-p4d-custom .custom-btn.clr-w.round-btn.btn-bg-red{padding:15px 40px;border-color:#da291c;color:#fff;background:#da291c}
+.section-p4d-custom .awesomplete{height:auto}
+.section-p4d-custom .otp-digits .input-box{width:7%}
+.meteorTimer.timerResend{margin-top:20px}
+.section-p4d-custom .mobile-field .input-field{padding-right:43px}
+@media screen and (max-width:1200px){.section-p4d-custom .input-field,.section-p4d-custom .select-field{padding:6px 30px 6px 0}
+}
+@media screen and (max-width:767px){.section-btr.section-p4d-custom{padding-bottom:40px}
+.section-p4d-custom .terms-message a{font-size:12px}
+.section-p4d-custom .btr-row{box-shadow:0 0 15px 2px rgb(0 0 0 / 15%)}
+.section-p4d-custom .btr-row .btr-form-rh{padding:40px 18px 45px}
+.section-p4d-custom .custom-btn.clr-w.round-btn.btn-bg-red.submit-btn{margin-top:30px}
+.section-p4d-custom .btr-heading{font-size:24px;line-height:28px}
+.section-p4d-custom .otp-digits .input-box{width:10%}
+.section-p4d-custom .consents .user-check-2 .form-gdpr{margin-right:0;width:100%}
+}
+@media screen and (max-width:330px){.verify-otp{right:2px}
+}
+.section-btr.section-p4d-custom.dark-theme{background:#000;color:#fff}
+.section-btr.section-p4d-custom.dark-theme .btr-row .btr-form-rh{background:#000;color:#fff}
+.section-p4d-custom.dark-theme .btr-row p,.section-p4d-custom.dark-theme .btr-row span{color:#fff}
+.section-p4d-custom.dark-theme .terms-message a{color:#fff}
+.section-p4d-custom.dark-theme .input-field,.section-p4d-custom.dark-theme .select-field{border-color:#fff;color:#fff}
+.section-p4d-custom.dark-theme .input-field::placeholder{color:#fff}
+.section-btr.section-p4d-custom.dark-theme .form-conditions{border-color:#fff}
+.section-p4d-custom.dark-theme .miy-content-main .custom-btn.clr-w.round-btn{color:#fff;border-color:#fff}
+.section-p4d-custom.dark-theme .miy-content-main .custom-btn.clr-w.round-btn:hover{background:#fff;color:#000;border-color:#fff}
+.section-p4d-custom.dark-theme .otp-digits .input-box .input-field,.section-p4d-custom.dark-theme .otp-digits .input-box .input-field{border-color:#000;color:#000}
+.section-p4d-custom.dark-theme .modal-body.otp-section,.section-btr.section-p4d-custom.dark-theme .modal{color:#000}
+.section-p4d-custom.dark-theme .btr-row .form-gdpr .lab span{border-color:#fff}
+.section-p4d-custom.dark-theme .dealer-dropdown label h3,.section-p4d-custom.dark-theme .btr-row .dealer-dropdown label p{color:#fff}
+.gold-theme .verify-otp{color:#ac865e !important}
+.gold-theme .disclaimer a{color:#ac865e}
+.gold-theme .custom-checkbox input[type=checkbox].with-font:checked~label:after,.gold-theme .form-gdpr .lab span:after,.gold-theme .dealer-dropdown label:before{background:#ac865e}
+.gold-theme .dealer-dropdown label:after{border-color:#ac865e}
+@media screen and (max-width:767px){.btr-j1b .section-btr.section-p4d-custom{padding-bottom:0}
+}

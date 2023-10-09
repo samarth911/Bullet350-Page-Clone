@@ -1,0 +1,78 @@
+.faq{width:100%;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row wrap;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap}
+.faq .faq-lh{width:400px;background:#d5d5d5;float:left;padding-bottom:50px}
+.faq .faq-lh .faq-lh-container{width:310px;margin:0 auto;color:#212121;padding-top:50px}
+.faq .faq-lh .faq-lh-container p{margin-top:20px}
+.faq .faq-lh .categorie-holder{margin-top:20px;position:relative}
+.faq .faq-lh .categorie-holder span{display:none;font-size:18px;color:#212121;font-family:"guardiansans-semibold";position:relative;padding:10px 15px;border:1px solid #000}
+.faq .faq-lh .categorie-holder span:after{position:absolute;right:15px;top:12px;content:"\0043";font-family:"reicons";font-size:14px;padding:0}
+.faq .faq-lh .nav.nav-tabs{float:none}
+.faq .faq-lh .nav.nav-tabs li{width:100%;display:block;border-bottom:1px solid #212121;color:#212121;font-size:14px}
+.faq .faq-lh .nav.nav-tabs li a{text-decoration:none;display:block;color:#212121;position:relative;padding:20px 15px 20px 0}
+.faq .faq-lh .nav.nav-tabs li a.active{color:#da291c}
+.faq .faq-lh .nav.nav-tabs li a.active:before{display:block}
+.faq .faq-lh .nav.nav-tabs li a:before{position:absolute;right:0;top:50%;margin-top:-10px;content:"\0041";display:none;font-family:"reicons"}
+.faq .faq-rh{max-width:-webkit-calc(100% - 400px);max-width:-moz-calc(100% - 400px);max-width:calc(100% - 400px);float:left;padding:50px 5%;-webkit-box-flex:0;-webkit-flex:0 0 75%;-moz-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%}
+.faq .faq-rh h2{padding-bottom:30px}
+.accordion{color:#212121}
+.faq .accordion li{padding:10px 0}
+.accordion li{border-bottom:1px solid #212121;color:#212121}
+.accordion li .acc-tab{font-size:18px;padding:15px 50px 15px 0;position:relative;font-family:"guardiansans-semibold";cursor:pointer}
+.accordion li .acc-tab span{display:block}
+.accordion li .acc-tab:after{width:20px;height:20px;position:absolute;right:0;top:50%;margin-top:-10px;content:"\0043";font-family:"reicons";font-size:14px}
+.accordion li .acc-tab.active:after{content:"\0030"}
+.accordion li .acc-content{padding-bottom:20px;display:none}
+.accordion li .acc-content p{margin-top:10px}
+@media screen and (max-width:1200px){.faq .faq-lh{width:320px}
+.faq .faq-lh .faq-lh-container{width:270px}
+.faq .faq-rh{max-width:-webkit-calc(100% - 320px);max-width:-moz-calc(100% - 320px);max-width:calc(100% - 320px);padding:50px 25px}
+.accordion li .acc-tab{font-size:18px;padding:0;padding-right:50px;line-height:28px}
+}
+@media screen and (max-width:767px){.faq .faq-lh{width:100%;padding-bottom:0}
+.faq .faq-lh .nav.nav-tabs{overflow-y:scroll;position:absolute;height:185px;left:0;top:44px;z-index:1;padding:0 20px 20px;background:#fff;width:100%;-webkit-box-shadow:0 0 20px -6px #000;-moz-box-shadow:0 0 20px -6px #000;box-shadow:0 0 20px -6px #000}
+.faq .faq-lh .nav.nav-tabs li a{padding:10px 0}
+.faq .faq-lh .nav.nav-tabs li a.active:before{display:none}
+.faq .faq-lh .categorie-holder span:after{top:50%;transform:translateY(-50%)}
+.faq .faq-lh .categorie-holder span{display:block;padding:10px 35px 10px 15px}
+.faq .faq-lh .faq-lh-container{width:100%;padding:25px}
+.faq .faq-lh .nav.nav-tabs{display:none}
+.faq .faq-rh{max-width:100%;padding:25px;-webkit-box-flex:0;-webkit-flex:0 0 100%;-moz-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%}
+.faq .accordion li{padding:10px 0}
+}
+.faq.gt-cup-faq .faq-lh{background:#000;width:450px}
+.faq.gt-cup-faq .faq-lh .faq-lh-container{color:#fff}
+.gt-cup-faq .faq-lh-container h2,.gt-cup-faq .faq-rh .mainHeading{font-size:40px;line-height:44px}
+.faq.gt-cup-faq .faq-lh .faq-lh-container p{font-size:20px;line-height:24px;margin-top:30px}
+.faq.gt-cup-faq .faq-lh .categorie-holder{margin-top:0}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs{margin-right:0}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs li a{color:#fff;font-size:20px;line-height:24px}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs li a.active{color:#da291c}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs li a:before{font-size:12px}
+.faq.gt-cup-faq .faq-rh{background:#d5d5d5;max-width:calc(100% - 450px)}
+.faq.gt-cup-faq .accordion li{padding:7px 0}
+.faq.gt-cup-faq .accordion li .acc-tab{font-size:20px;line-height:24px;padding:10px 50px 10px 0}
+.faq.gt-cup-faq .accordion li .acc-content{padding-bottom:15px}
+.faq.gt-cup-faq .accordion li .acc-content p{margin-top:5px}
+@media screen and (min-width:767px){.gt-cup-faq .faq-lh{padding-bottom:100px}
+.gt-cup-faq .faq-rh{padding:60px 5%}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs li{border-color:#fff}
+.gt-cup-faq{background:#212121}
+}
+@media screen and (max-width:767px){.faq.gt-cup-faq .faq-lh{width:100%;background:#212121}
+.faq.gt-cup-faq .faq-lh .faq-lh-container{padding:25px 15px}
+.faq.gt-cup-faq .faq-rh{max-width:100%;background:#212121;color:#fff;padding:15px 15px 25px}
+.faq.gt-cup-faq .faq-lh .categorie-holder span{color:#fff;border-color:#fff;padding:20px 30px 20px 30px;font-size:16px;text-align:center}
+.faq.gt-cup-faq .faq-lh .categorie-holder span:after{top:50%;transform:translateY(-50%)}
+.gt-cup-faq .faq-lh-container h2,.gt-cup-faq .faq-rh .mainHeading{font-size:20px;line-height:24px}
+.gt-cup-faq .faq-lh-container h2{display:none}
+.faq.gt-cup-faq .faq-lh .faq-lh-container p{text-align:center;font-size:18px;margin:0 0 15px}
+.gt-cup-faq .faq-lh-container h2,.gt-cup-faq .faq-rh .mainHeading{padding-bottom:18px;border-bottom:1px solid #fff}
+.faq.gt-cup-faq .accordion li .acc-tab{font-size:16px;line-height:20px}
+.faq.gt-cup-faq .accordion li{border-bottom:1px solid #fff;color:#fff}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs li a{color:#212121;font-size:16px;line-height:20px}
+.faq.gt-cup-faq .faq-lh .nav.nav-tabs{top:64px}
+}
+.arial-ft .faq .faq-lh .categorie-holder span,.arial-ft .accordion li .acc-tab{font-family:"Arial-bold"}
+@media screen and (max-width:767px){.dark-theme-faq.faq.gt-cup-faq .faq-lh,.dark-theme-faq.faq .faq-lh{background:#000;color:#fff}
+.dark-theme-faq.faq.gt-cup-faq .faq-rh,.dark-theme-faq.faq .faq-rh{background:#000;color:#fff}
+.dark-theme-faq.faq.gt-cup-faq .accordion li,.dark-theme-faq.faq .accordion li{border-bottom:1px solid #fff;color:#fff}
+}

@@ -1,0 +1,44 @@
+.headingScrollSection .scrollable-items-container{overflow:hidden}
+.headingScrollSection .scrollable-items-container .scroll-item{max-width:100%;margin:auto;text-align:center}
+.headingScrollSection .scrollable-items-container .scroll-item .text-title{font-family:'Roboto-Bold';font-size:32px;line-height:1.35}
+.headingScrollSection .scrollable-items-container .scroll-item:last-child .text-title{font-size:17px}
+.headingScrollSection .scrollable-items-container .scroll-item .text-regular{font-family:'Roboto-Light';font-size:20px;line-height:1}
+.headingScrollSection .scrollable-items-container{margin-top:20px}
+.headingScroll .contentBoxed.fitScreen.displayFlex{flex-direction:column;flex-direction:column;justify-content:center}
+.headingScrollSection .scrollable-items-container .scroll-item .img-item{max-width:100%;margin:10px auto}
+.headingScrollSection .top-img-container{display:none}
+.headingScrollSection .top-image-exist .top-img-container{display:block;margin-bottom:50px}
+.headingScrollSection .top-img-container img{max-width:unset;display:block;margin:auto}
+.headingScrollSection .custom-btn.view-ar-btn.clr-w.audio-play-btn{width:max-content;height:auto;padding:6px 23px 5px 30px;background:#ac865e;border-color:#ac865e;font-weight:unset;min-width:unset}
+.headingScrollSection .custom-btn.audio-play-btn .audio-icon{margin-top:-5px;width:30px;display:inline-block;margin-left:4px;vertical-align:middle;margin-top:-4px}
+.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-second .scroll-item:last-child{padding-top:0}
+.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-second .scroll-item:nth-last-of-type(2){padding:20px 0}
+.j1b-scroll-comp .headingScrollSection .top-image-exist .top-img-container{margin-bottom:20px}
+.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-second .scroll-item .text-title{font-size:24px}
+.j1b-scroll-comp .headingScrollSection{margin-top:-1px !important}
+.j1b-scroll-comp .headingScrollSection{margin-top:-1px !important}
+.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-second .soundMediaContainer.scroll-item:last-child{height:50px}
+@media(min-width:768px){.headingScrollSection .scrollable-items-container .scroll-item{max-width:60%}
+.headingScrollSection .scrollable-items-container .scroll-item .text-title{font-size:36px}
+.headingScrollSection .scrollable-items-container .scroll-item:last-child .text-title{font-size:24px}
+.headingScrollSection .scrollable-items-container .scroll-item .img-item,.headingScrollSection .top-image-exist .top-img-container img{max-width:50%}
+}
+@media(min-width:1200px){.headingScrollSection .scrollable-items-container .scroll-item{max-width:700px}
+}
+@media(min-width:1800px){.headingScrollSection .scrollable-items-container .scroll-item .text-title{font-size:26px}
+.headingScrollSection .scrollable-items-container .scroll-item{max-width:57%}
+}
+.arial-ft .headingScrollSection .scrollable-items-container .scroll-item .text-title{font-family:'Arial-bold'}
+.arial-ft .headingScrollSection .scrollable-items-container .scroll-item .text-regular{font-family:"Arial-regular"}
+.headingScrollSection{background-position:center center;background-size:cover;background-repeat:no-repeat}
+.headingScrollSection .scrollable-items-container.btr-font-first .scroll-item:not(:last-child) .text-title{font-family:'butler-bold'}
+.headingScrollSection .scrollable-items-container.btr-font-second .scroll-item:last-child .text-title{font-family:'butler-bold'}
+.headingScrollSection .scrollable-items-container.btr-font-second .scroll-item .text-title{font-size:32px}
+.bt-padding .headingScrollSection .scrollable-items-container.btr-font-second .scroll-item:last-child{padding-top:40px}
+@media screen and (max-width:767px){.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-first .scroll-item:not(:last-child) .text-title,.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-second .scroll-item .text-title{font-size:27px}
+.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-first .scroll-item:not(:last-child) .text-title,.j1b-scroll-comp .headingScrollSection .scrollable-items-container.btr-font-second .scroll-item .text-title{font-size:20px}
+}
+@media screen and (max-width:330px){.j1b-scroll-comp .headingScrollSection .top-img-container img{max-width:130px}
+.j1b-scroll-comp .headingScrollSection .top-image-exist .top-img-container{margin-bottom:0}
+.headingScrollSection .custom-btn.audio-play-btn .audio-icon{width:30px}
+}

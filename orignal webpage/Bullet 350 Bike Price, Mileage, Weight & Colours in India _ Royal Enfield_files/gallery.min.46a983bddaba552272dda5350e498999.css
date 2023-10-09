@@ -1,0 +1,129 @@
+.gridGallerySection{background-position:center;background-size:cover;background-repeat:no-repeat}
+.gridGallerySection .section-title{font-family:'Roboto-Black';padding:10px 0;font-size:48px;line-height:1}
+.gridGallerySection .contentBoxed{margin-top:40px;margin-bottom:5px;padding:0 70px}
+.gridGallerySection .gallery-wraper img{width:unset;max-width:unset;position:relative;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);width:100%;height:100%;object-fit:cover;cursor:pointer}
+.gridGallerySection .gallery-wraper .img-h1{height:380px;height:47vh;overflow:hidden;object-fit:cover;object-position:center;margin:5px}
+.gridGallerySection .gallery-wraper .img-h2{height:150px;height:22vh;overflow:hidden;object-fit:cover;object-position:center;margin:5px}
+.gridGallerySection .gallery-wraper .flex-column:nth-child(even) .img-h2{order:-1}
+.gridGallerySection .scale{transform:scaleY(1.05);padding-top:5px}
+.gridGallerySection .galleryViewPhotoLargeContainer{position:fixed;top:0;bottom:0;left:0;right:0;height:100%;width:100%;display:none;z-index:1000}
+.gridGallerySection .galleryViewPhotoLargeContainer .galleryViewPhotoLargeAligner{display:flex;width:100%;margin:auto;height:100%}
+.gridGallerySection .gallery-wraper{overflow-x:auto;padding-right:65px;padding-left:65px;margin-bottom:50px;padding-bottom:10px}
+.gridGallerySection .galleryViewPhotoLargeContainer-imgCover{position:relative;margin:auto;max-width:50vw}
+.icon-download:before{content:"\0052";font-family:"reicons"}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnDownloadGalleryModal{position:relative;background:transparent;border:0;height:20px;width:20px;display:inline-block}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal{position:relative;background:transparent;border:0;height:30px;width:30px;display:inline-block;cursor:pointer}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnsSpacer{min-width:calc(100% - 50px);min-height:1px;display:inline-block}
+.gridGallerySection .gallery-wraper .gallery-grids-master-container{width:800px}
+.gridGallerySection .flex-column{max-width:200px}
+.download-btn{background:transparent;color:#000;width:32px;height:32px;position:absolute;top:4px;left:4px}
+.download-btn:before{font-family:'reicons';font-weight:bold;-webkit-text-stroke:1.5px #000;font-size:12px;line-height:12px;position:absolute;top:50%;left:50%;z-index:76;transform:translate(-50%,-50%)}
+.download-btn:after,.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal span:after{background:#fff;border-radius:3px;opacity:.7;height:32px;width:32px;position:absolute;content:"";left:0;z-index:9;top:0}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal .icon-close:before{font-weight:bold;-webkit-text-stroke:1.5px #000;font-size:11px;line-height:11px;position:absolute;top:10.5px;left:11px;z-index:99}
+.galleryControlers{position:absolute;left:16px;right:16px;top:10px;width:calc(100% - 32px);display:flex;justify-content:space-between}
+.gridGallerySection .galleryViewPhotoLargeContainer .download-btn{top:unset;left:unset;position:relative}
+.gl-dl-list{position:relative;transform:translateX(-100%);display:none !important;transition:transform .5s ease,opacity 1s ease}
+.gl-dl-list.active{transform:translateX(0);display:flex !important}
+.gl-in-btn{background:rgba(255,255,255,0.7);border:0;outline:0;border-radius:3px;margin-left:5px;padding:9px 12px 7px;font-family:'Roboto-Medium';font-size:14px;line-height:14px;cursor:pointer}
+.gallery-overlay{position:absolute;top:0;left:0;width:100%;height:100%;opacity:.5}
+.eu-btr-gallery .section-p4d-custom.gridGallerySection .gallery-wraper{margin-bottom:5px}
+@media(min-width:768px){.gridGallerySection .galleryViewPhotoLargeContainer .btnsSpacer{min-width:calc(100% - 70px)}
+.gridGallerySection .galleryViewPhotoLargeContainer-imgCover{max-height:calc(100vh - 95px);margin:50px auto 45px}
+.viewPhotoLarge-img{height:100%}
+}
+@media(min-width:992px){.gridGallerySection .gallery-wraper .gallery-grids-master-container{width:100%}
+.gridGallerySection .flex-column{max-width:25%}
+}
+@media(min-width:1200px){.gridGallerySection .gallery-wraper{overflow-x:auto;padding-right:70px;padding-left:70px}
+.gridGallerySection .gallery-wraper .gallery-grids-master-container{margin:0 -5px}
+}
+@media(min-width:1650px){.gridGallerySection .contentBoxed,.gridGallerySection .gallery-wraper{padding-right:6%;padding-left:6%}
+.gridGallerySection .gallery-wraper .gallery-grids-master-container{margin:0}
+}
+@media(min-width:1800px){.gridGallerySection .contentBoxed,.gridGallerySection .gallery-wraper{padding-right:120px;padding-left:120px}
+.gridGallerySection .section-title{font-size:calc(30px + 2vw)}
+}
+@media screen and (max-width:992px){.gridGallerySection .contentBoxed{padding:0 20px}
+.gridGallerySection .gallery-wraper{padding-right:15px;padding-left:15px}
+}
+@media screen and (max-width:767px){.gridGallerySection .section-title{font-size:32px}
+.gridGallerySection .contentBoxed{padding-right:17px;padding-left:17px;margin-top:45px}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal,.gridGallerySection .galleryViewPhotoLargeContainer .download-btn{height:30px;width:30px;top:0}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal .icon-close:before,.gridGallerySection .galleryViewPhotoLargeContainer .download-btn:before{font-size:13px;line-height:13px}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal .icon-close:before{top:8.5px;left:8.5px}
+.gridGallerySection .galleryViewPhotoLargeContainer .download-btn:before{left:50%;top:50%}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal span:after,.gridGallerySection .galleryViewPhotoLargeContainer .download-btn:after{height:30px;width:30px}
+.galleryControlers{left:5px;right:5px;top:5px;width:calc(100% - 11px)}
+.gl-dl-list{flex-wrap:wrap}
+.gl-in-btn{padding:9px 12px 6px;font-size:12px;line-height:12px}
+.gridGallerySection .galleryViewPhotoLargeContainer-imgCover{max-width:98vw}
+.gridGallerySection .gallery-wraper{padding-right:15px;padding-left:15px}
+}
+a.modalBtn.custom-btn.icon-download.selected{background:#000;color:#fff}
+.custom-radio input[type=radio].with-font{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.custom-radio input[type=radio].with-font~label:before{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
+.custom-radio input[type=radio].with-font~label:before{content:"";width:24px;height:24px;border:solid thin #656565;display:inline-block;vertical-align:middle;cursor:pointer;top:-6px;position:absolute;background:#fff;left:-6px}
+.custom-radio.active input[type=radio].with-font~label:before{width:24px;height:24px;background:#000}
+.custom-radio.active input[type=radio].with-font~label:after{display:block}
+.custom-radio input[type=radio].with-font~label:after{content:"";top:4px;left:6px;width:6px;height:13px;border:solid white;border-width:0 2px 2px 0;transform:translate(-50%,-50%) rotate(45deg);display:none;position:absolute;z-index:2}
+.custom-radio label{text-transform:capitalize;font-weight:normal;margin-bottom:0;position:relative;color:#555;font-size:14px;cursor:pointer;text-transform:capitalize}
+.mac-download .custom-radio input[type=radio].with-font~label:before{left:4px}
+.mac-download .custom-radio input[type=radio].with-font~label:after{left:16px}
+.gallery .modal-heading{text-align:center;font-size:19px;padding-bottom:20px}
+.devices-download{display:flex;justify-content:space-evenly;align-items:flex-end;padding:40px 0 30px}
+.devicing p{text-align:center;padding:10px 0;width:100%;color:#000}
+#galleryDownloadModal .modal-body{padding:0 1rem 1rem}
+.download-cta{text-align:center;margin:20px 0}
+a.modalBtn.custom-btn.icon-download{border:1px solid #000;padding:10px 35px 10px 20px;font-size:12px;color:#000}
+.modalBtn:before{position:absolute;right:17px;font-weight:bold}
+#galleryDownloadModal .modal-header{border-bottom:0;border-radius:0;border-top-left-radius:0;border-top-right-radius:0}
+#galleryDownloadModal .modal-content{border-radius:0;border:4px solid #c9c9c9}
+button.close.close-section{opacity:1}
+.closing:before{font-size:12px;font-weight:bold}
+#galleryDownloadModal .modal-dialog{max-width:85%}
+.mac-download{margin-right:45px}
+.phone-download.devicing{margin-right:70px}
+#galleryDownloadModal .modal-heading{text-align:center;font-size:19px;padding-bottom:20px;color:#000}
+.thank-msg{text-align:center;padding:15px 0 50px;color:#3a3838}
+#galleryDownloadModal .close-section{padding:20px}
+.device-error{color:#da291c;text-align:center;display:none}
+@media screen and (max-width:767px){#galleryDownloadModal .containers{padding-right:15px;padding-left:15px;width:100%;margin:0 auto}
+#galleryDownloadModal h2{padding:20px 0;font-size:19px;text-align:center}
+.wallpaper{width:100%;display:inline-block;margin:0 auto 20px;padding:0;text-align:center}
+.wallpaper img{height:auto}
+a.viewBtn.custom-btn.icon-download{right:10px;bottom:10px}
+.devices-download{flex-direction:column;align-items:center;padding:10px 60px 0}
+.mac-download{margin-right:0}
+.phone-download.devicing{margin-right:0}
+.desktop-download img{height:120px}
+.mac-download img{height:80px}
+.phone-download img{width:40px}
+#galleryDownloadModal .modal-dialog.modal-dialog-centered.modal-lg{margin:8px auto}
+#galleryDownloadModal .modal-header{padding:6px 1rem}
+#galleryDownloadModal .modal-body{padding:0 1rem 0rem}
+.custom-radio input[type=radio].with-font~label:before{left:0}
+.phone-download .custom-radio input[type=radio].with-font~label:before{left:-13px}
+.custom-radio input[type=radio].with-font~label:after{left:12px}
+.phone-download .custom-radio input[type=radio].with-font~label:after{left:-1px}
+.custom-radio{text-align:center}
+.gallery-slider.slick-initialized .slick-slide{height:auto}
+}
+@supports(-webkit-touch-callout:none){@media screen and (max-width:767px){.custom-radio input[type=radio].with-font~label:before{left:12px}
+.mac-download .custom-radio input[type=radio].with-font~label:before{left:30px}
+.gridGallerySection .galleryViewPhotoLargeContainer .btnCloseGalleryModal .icon-close:before{padding-right:7px}
+.custom-radio input[type=radio].with-font~label:after{left:24px}
+.mac-download .custom-radio input[type=radio].with-font~label:after{left:42px}
+}
+}
+.section-container.section-p4d-custom strong{font-family:'guardiansans-semibold'}
+.section-p4d-custom.gridGallerySection .section-title{font-size:36px;color:#373737;-webkit-text-stroke:.8px}
+.section-p4d-custom.gridGallerySection{background:#fff}
+.section-p4d-custom.gridGallerySection .flex-column{max-width:33.3333%;width:33.333%}
+.section-p4d-custom.gridGallerySection .download-btn{left:auto;right:4px}
+.section-p4d-custom.gridGallerySection .flex-column{max-width:33.33%}
+@media screen and (max-width:767px){.section-p4d-custom.gridGallerySection .gallery-wraper .gallery-grids-master-container{width:600px}
+.section-p4d-custom.gridGallerySection .section-title{font-size:24px}
+.section-p4d-custom.gridGallerySection .contentBoxed{margin-top:20px}
+.section-p4d-custom.gridGallerySection .gallery-wraper{margin-bottom:35px}
+.section-p4d-custom.gridGallerySection{min-height:unset !important}
+}
