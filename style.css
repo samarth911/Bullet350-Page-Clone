@@ -70,7 +70,7 @@
 .right {
     height: 100%;
     width: 400px;
-    margin-left: 320px;
+    margin-left: 440px;
 }
 
 .options {
@@ -155,6 +155,7 @@
 }
 
 .subbox {
+    display: flex;
     height: 100%;
     width: 45%;
     flex-direction: column;
@@ -163,7 +164,7 @@
 
 .specs {
     margin: 0;
-    padding: 0 75px;
+    padding: 0 30px;
 }
 
 .features {
@@ -221,9 +222,96 @@
     flex-direction: column;
     width: 48%;
     margin: 40px 0;
+    color: white;
+    /* border: 2px solid white; */
 }
 
 .second {
     margin-left: 40px;
     font-family: system-ui;
+}
+
+.bookinginfo {
+    padding: 60px 70px;
+}
+
+.code {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.num {
+    width: 100%;
+}
+
+.ip {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 700;
+    margin-left: 5px;
+    outline: none;
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
+}
+
+input .ip {
+    width: 100%;
+}
+
+input::placeholder {
+    color: white;
+    font-weight: 550;
+}
+
+.disclaimer {
+    height: fit-content;
+    font-size: 13px;
+    padding-bottom: 20px;
+    font-size: 80%;
+}
+
+.agree {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+/* Style for the hidden checkbox input */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+/* Style for the entire checkbox area, including the white border */
+.custom-checkbox input[type="checkbox"]+.checkmark {
+    position: absolute;
+    /* The entire area within the border */
+    background-color: black;
+    /* Black background */
+}
+
+/* Style for the yellow box in the center when the checkbox is checked */
+.custom-checkbox input[type="checkbox"]:checked+.checkmark {
+    position: absolute;
+    margin: 4px;
+    width: 7px;
+    height: 7px;
+    background-color: #ac865e;
+}
+
+.submit {
+    color: #ffffff;
+    font-weight: 650;
+    height: 45px;
+    width: 125px;
+    background-color: #ac865e;
+    border: none;
 }

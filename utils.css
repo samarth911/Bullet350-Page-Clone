@@ -39,7 +39,7 @@ h2 {
     color: #FFFFFF;
 }
 
-iframe {
+.block {
     display: block;
     border: none;
 }
@@ -70,4 +70,16 @@ iframe {
     padding-top: 110px;
     font-family: georgia;
     font-size: 35px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.inputs {
+    height: 50px;
+}
+
+.sysui {
+    font-family: system-ui;
 }
