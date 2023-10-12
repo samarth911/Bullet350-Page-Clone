@@ -41,6 +41,12 @@
     justify-content: right;
 }
 
+.tabs {
+    font-family: system-ui;
+    font-weight: 600;
+    padding: 0 30px;
+}
+
 .flag {
     height: 20px;
 }
@@ -164,7 +170,7 @@
 
 .specs {
     margin: 0;
-    padding: 0 30px;
+    padding: 0 70px;
 }
 
 .features {
@@ -233,6 +239,7 @@
 
 .bookinginfo {
     padding: 60px 70px;
+    padding-bottom: 0;
 }
 
 .code {
@@ -314,4 +321,130 @@ input::placeholder {
     width: 125px;
     background-color: #ac865e;
     border: none;
+}
+
+.griditems {
+    display: flex;
+    justify-content: end;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gallery {
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 175px;
+    padding-top: 18px;
+}
+
+/* customising gallery grids */
+
+.item1 {
+    background-image: url("images/gallery1.webp");
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item2 {
+    background-image: url("images/gallery2.jfif");
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item3 {
+    background-image: url("images/gallery3.jfif");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item4 {
+    background-image: url("images/gallery4.jfif");
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item5 {
+    background-image: url("images/gallery5.jfif");
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item6 {
+    background-image: url("images/gallery6.jfif");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.downicon {
+    background-color: #fefefe;
+    opacity: 0.75;
+    border-radius: 10%;
+    margin: 4px;
+    padding: 0.5rem;
+    height: 20px;
+    width: 20px;
+}
+
+.media {
+    font-family: Malgun Gothic;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.reviews {
+    padding-top: 18px;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(500px, auto);
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.boxes {
+    border: 1px solid white;
+}
+
+.pic1 {
+    height: 280px;
+    background-image: url("images/review1.avif");
+}
+
+.pic1 p {
+
+    font-size: 1rem;
+}
+
+.pic2 {
+    height: 280px;
+    background-image: url("images/review2.jpg");
+}
+
+.pic3 {
+    height: 280px;
+    background-image: url("images/review3.jpg");
+}
+
+.detailreview {
+    border: 2px solid white;
+    border-radius: 50% 50% 0 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #333333;
+    color: white;
+
+    /* Add a box-shadow property to create the flattened effect on the top and bottom of the border. */
+    box-shadow: 0 0 5px 0 white;
+
+    /* Add a border-top-width and border-bottom-width property to make the border slightly thicker on the top and bottom. */
+    border-top-width: 3px;
+    border-bottom-width: 3px;
 }

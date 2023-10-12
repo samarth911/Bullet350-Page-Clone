@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.spaceeven {
+    justify-content: space-evenly;
+}
+
 .spacebw {
     justify-content: space-between;
 }
@@ -57,6 +61,9 @@ h2 {
     flex-direction: column;
 }
 
+.grid {
+    display: grid;
+}
 
 .gold {
     color: #ac865e;
@@ -82,4 +89,19 @@ h2 {
 
 .sysui {
     font-family: system-ui;
+}
+
+.icon {
+    opacity: 1;
+    color: black;
+}
+
+.centerback {
+    background-position: center;
+    background-size: cover;
+}
+
+
+.space10px {
+    height: 10px;
 }
