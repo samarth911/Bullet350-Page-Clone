@@ -29,6 +29,15 @@ a {
 
 .red:hover {
     color: red;
+    opacity: 1;
+}
+
+.redtxt {
+    color: red;
+}
+
+.colorblack {
+    color: #100c0c;
 }
 
 .bar {
