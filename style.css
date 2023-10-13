@@ -472,10 +472,13 @@ input::placeholder {
     color: black;
 }
 
+/* **SERVICES SECTION** */
+
 .services {
-    height: 100px;
+    height: 90px;
     background-color: #282424;
-    padding: 25px 0;
+    padding: 20px 0;
+    font-size: 0.9rem;
 }
 
 .links {
@@ -488,4 +491,89 @@ input::placeholder {
 .icons {
     font-size: 55px;
     opacity: .5;
+}
+
+footer {
+    padding: 0 1rem;
+    background-color: #e8e4e4;
+}
+
+.top {
+    height: 90px;
+    font-size: 1.15rem;
+    justify-content: end;
+    padding: 0 50px;
+}
+
+
+.icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-left: 1rem;
+}
+
+.fb {
+    background-image: url('images/footer/fbblack.png');
+}
+
+.fb:hover {
+    background-image: url('images/footer/fb.png');
+}
+
+.X {
+    background-image: url('images/footer/x.png');
+}
+
+.yt {
+    background-image: url('images/footer/ytblack.png');
+}
+
+.yt:hover {
+    background-image: url('images/footer/yt.png');
+}
+
+.ig {
+    background-image: url('images/footer/igblack.png');
+}
+
+.ig:hover {
+    background-image: url('images/footer/ig.png');
+}
+
+.li {
+    background-image: url('images/footer/liblack.png');
+}
+
+.li:hover {
+    background-image: url('images/footer/li.png');
+}
+
+.block a,
+.block h2 {
+    color: #100c0c;
+}
+
+.middle {
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    padding: 30px 2.75rem;
+    font-weight: 500;
+    font-size: 0.85999rem;
+}
+
+li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.bottom {
+    padding: 0 2.75rem;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    height: 40px;
+}
+
+.TnCs a {
+    color: #100c0c;
+    margin: 0 5px;
 }
